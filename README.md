@@ -3,7 +3,7 @@ really simple sockets library. wrapper around `net` with some basic handling bui
 
 ## usage
 ```javascript
-const ssock = require("ssock");
+const ssock = require("ssocks");
 
 const socket = ssock({
   port: 9999,     // port to listen on, default 3000

@@ -1,0 +1,25 @@
+{
+  "name": "ssockjs",
+  "version": "0.0.1",
+  "description": "simple socket library with no dependencies",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "simple",
+    "socket",
+    "library",
+    "http"
+  ],
+  "author": "Aditya Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "mocha": "^3.2.0",
+    "q": "^1.4.1"
+  }
+}

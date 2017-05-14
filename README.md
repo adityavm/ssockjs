@@ -1,6 +1,8 @@
 # simple sockets js
 really simple sockets library. wrapper around `net` with some basic handling built in.
 
+[![Build Status](https://img.shields.io/travis/adityavm/ssockjs/master.svg?style=flat-square)](https://travis-ci.org/adityavm/ssockjs)
+
 ## usage
 ```javascript
 const ssock = require("ssocks");

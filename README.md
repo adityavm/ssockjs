@@ -1,5 +1,5 @@
 # simple sockets js
-really simple sockets library. wrapper around `net` with some basic handling built in.
+Really simple sockets library. wrapper around `net` with some basic handling built in.
 
 [![Build Status](https://img.shields.io/travis/adityavm/ssockjs/master.svg?style=flat-square)](https://travis-ci.org/adityavm/ssockjs)
 
@@ -13,8 +13,8 @@ const socket = ssock({
   quiet: true,    // don't be verbose, default true
 });
 
-socket.onMessage((data, conn) => {}); // successfully received message from client
-socket.onError((data, conn) => {});   // encountered error
+socket.onMessage((data, conn) => { ... }); // successfully received message from client
+socket.onError((data, conn) => { ... });   // encountered error
 ```
 
 _note: all configuration parameters are optional._

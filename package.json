@@ -1,6 +1,6 @@
 {
   "name": "ssocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple sockets library with no dependencies",
   "main": "index.js",
   "directories": {
